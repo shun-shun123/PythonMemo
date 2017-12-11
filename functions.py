@@ -25,7 +25,7 @@ def inputJson(subject, assignment, deadline):
 def outputJson():
     f = open('data.json', 'r')
     jsonData = json.load(f)
-    print(jsonData)
+    # print(jsonData)
     f.close()
     return jsonData
 
@@ -34,4 +34,12 @@ def get_date():
     day = datetime.date.today().day
     month = datetime.date.today().month
     
+    return day, month
+
+# parameter:
+# date: date type (mmdd)
+# return -> day, month
+def parse_date(date):
+    day = date % 100
+    month = date / 100
     return day, month
