@@ -8,114 +8,34 @@
     },
     {
         "kadai1": {
-            "subject": "123",
-            "assignment": "234",
-            "deadline": 34555
+            "subject": "\u82f1\u8a9e",
+            "assignment": "draft2nd",
+            "deadline": 1220,
+            "state": 1
         }
     },
     {
         "kadai1": {
-            "subject": "123",
-            "assignment": "123",
-            "deadline": 123
+            "subject": "\u82f1\u8a9e",
+            "assignment": "discussion_report",
+            "deadline": 1225,
+            "state": 1
         }
     },
     {
         "kadai1": {
-            "subject": "123",
-            "assignment": "123",
-            "deadline": 2345
+            "subject": "\u30d7\u30ed\u6f14",
+            "assignment": "kadai1",
+            "deadline": 1216,
+            "state": 1
         }
     },
     {
         "kadai1": {
-            "subject": "123",
-            "assignment": "math",
-            "deadline": 2345
-        }
-    },
-    {
-        "kadai1": {
-            "subject": "123",
-            "assignment": "2345",
-            "deadline": 3456
-        }
-    },
-    {
-        "kadai1": {
-            "subject": "123",
-            "assignment": "123",
-            "deadline": 2345
-        }
-    },
-    {
-        "kadai1": {
-            "subject": "math",
-            "assignment": "report",
-            "deadline": 1210
-        }
-    },
-    {
-        "kadai1": {
-            "subject": "math",
-            "assignment": "report",
-            "deadline": 1211
-        }
-    },
-    {
-        "kadai1": {
-            "subject": "math",
-            "assignment": "report",
-            "deadline": 1211
-        }
-    },
-    {
-        "kadai1": {
-            "subject": "math",
-            "assignment": "added now",
-            "deadline": 9999
-        }
-    },
-    {
-        "kadai1": {
-            "subject": "math",
-            "assignment": "report",
-            "deadline": 1220
-        }
-    },
-    {
-        "kadai1": {
-            "subject": "english",
-            "assignment": "draft 1",
-            "deadline": 1230
-        }
-    },
-    {
-        "kadai1": {
-            "subject": "math",
-            "assignment": "999999999999",
-            "deadline": 999999999999
-        }
-    },
-    {
-        "kadai1": {
-            "subject": "PE",
-            "assignment": "report",
-            "deadline": 1215
-        }
-    },
-    {
-        "kadai1": {
-            "subject": "newsub",
-            "assignment": "newass",
-            "deadline": 9999
-        }
-    },
-    {
-        "kadai1": {
-            "subject": "newsub",
-            "assignment": "newass",
-            "deadline": 9999
+            "subject": "\u30d7\u30ed\u6f14",
+            "assignment": "kadai2",
+            "deadline": 1216,
+            "state": 1
         }
     }
 ]

@@ -24,15 +24,31 @@ except Exception:
 while 1:
     command = int(input("コマンドを入力してください\n0: 終了\n1: 書き込み\n2: 教科名検索\n3: 締め切り順ソート\n4: 消去\n"))
     if command == 0:
+        print("終了します")
         break
     elif command == 1:
         print("書き込み")
-        
+        subject = str(input("教科名を入力してください"))
+        assignment = str(input("課題を入力してください"))
+        deadline = int(input("締め切りを入力してください"))
+        state = int(input("状態を入力してください"))
         functions.inputJson(subject, assignment, deadline, state)
     elif command == 2:
-        print("教科名検索")
+        print("教科名検索を行います")
+        subject = str(input("教科名を入力してください"))
+        for data in jsonData:
+            if data['kadai1']['subject'] == subject:
+                assignment = data['kadai1']['assignment']
+                deadline = data['kadai1']['deadline']
+                print("\n課題名 : " + assignment)
+                print("締め切り : " + str(deadline))
     elif command == 3:
         print("締め切り順ソート")
+        all_data = sorted(jsonData, key=lambda x:x['kadai1']['deadline'])
+        for data in all_data:
+            print("\n教科名 : " + data['kadai1']['subject'])
+            print("課題名 : " + data['kadai1']['assignment'])
+            print("締め切り : " + str(data['kadai1']['deadline']))
     elif command == 4:
         print("消去")
     else:
