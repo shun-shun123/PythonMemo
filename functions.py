@@ -5,12 +5,13 @@ import json, datetime
 # assignment: str // 課題名
 # deadline: int // 提出期限
 # function: input Jsondata to data.json file
-def inputJson(subject, assignment, deadline):
+def inputJson(subject, assignment, deadline, state):
     dict = {
         'kadai1':{
             'subject':subject,
             'assignment':assignment,
-            'deadline':deadline
+            'deadline':deadline,
+            'state':state
         }
     }
     li = list()

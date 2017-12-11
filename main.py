@@ -27,6 +27,8 @@ while 1:
         break
     elif command == 1:
         print("書き込み")
+        
+        functions.inputJson(subject, assignment, deadline, state)
     elif command == 2:
         print("教科名検索")
     elif command == 3:
