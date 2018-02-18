@@ -1,3 +1,4 @@
+# コメントは自分で英語で書きました
 import json, datetime, math
 
 # parameter
@@ -5,13 +6,13 @@ import json, datetime, math
 # assignment: str // 課題名
 # deadline: int // 提出期限
 # function: input Jsondata to data.json file
-def inputJson(subject, assignment, deadline, state, dueTime):
+def inputJson(subject, assignment, deadline, detail, dueTime):
     dict = {
         'kadai':{
             'subject':subject,
             'assignment':assignment,
             'deadline':deadline,
-            'state':state,
+            'detail':detail,
             'dueTime': dueTime
         }
     }
@@ -42,6 +43,9 @@ def get_year():
     year = datetime.date.today().year
     return year
 
+# parameter
+# date: data
+# function: if date is invalid, this returns false, else returns true
 def check_date(date):
     year = int (date / 10000)
     if(year % 400 == 0):
@@ -80,7 +84,7 @@ def check_date(date):
 # parameter 
 # deadline: yyyymmdd == Integer
 # dueTime: dueTime == String
-# function: print out deadline in an arrangemnt
+# function: print out deadline in order
 def printout_deadline(deadline, dueTime):
     year = int (deadline / 10000)
     month = int (deadline % 10000 / 100)
