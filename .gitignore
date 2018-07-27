@@ -1,0 +1,7 @@
+*.pdf
+Report.*
+GroupReport
+*.pttx
+__pycache__
+*.mov
+.DS_Store

@@ -7,50 +7,5 @@
             "detail": "00000000",
             "dueTime": 2460
         }
-    },
-    {
-        "kadai": {
-            "subject": "\u82f1\u8a9e",
-            "assignment": "\u30ec\u30dd\u30fc\u30c8",
-            "deadline": 20180115,
-            "detail": "\u6388\u696d\u3067\u63d0\u51fa",
-            "dueTime": 1300
-        }
-    },
-    {
-        "kadai": {
-            "subject": "\u30b7\u30b9\u6f14",
-            "assignment": "\u30b0\u30eb\u30fc\u30d7\u30ec\u30dd\u30fc\u30c8",
-            "deadline": 20180122,
-            "detail": "pdf\u5f62\u5f0f\u3067\u63d0\u51fa",
-            "dueTime": 1700
-        }
-    },
-    {
-        "kadai": {
-            "subject": "\u30d7\u30ed\u8a00",
-            "assignment": "\u30aa\u30bb\u30ed\u30ec\u30dd\u30fc\u30c8",
-            "deadline": 20180204,
-            "detail": "pdf\u5f62\u5f0f\u3067\u63d0\u51fa",
-            "dueTime": 1700
-        }
-    },
-    {
-        "kadai": {
-            "subject": "\u6570\u5b66",
-            "assignment": "\u308c\u307d\u30fc\u3068",
-            "deadline": 20180116,
-            "detail": "\u6388\u696d\u3067\u63d0\u51fa",
-            "dueTime": 1300
-        }
-    },
-    {
-        "kadai": {
-            "subject": "\u6570\u5b66",
-            "assignment": "\u30ec\u30dd\u30fc\u30c8",
-            "deadline": 20180120,
-            "detail": "1200",
-            "dueTime": 900
-        }
     }
 ]
